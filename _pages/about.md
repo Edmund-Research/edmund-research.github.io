@@ -2,10 +2,10 @@
 layout: single
 title: "About"
 permalink: /about/
-author_profile: false
+author_profile: true
 ---
 
-## 👋 Hi, I’m Edmund Chege
+## 👋 Hi,
 
 I’m an **Infrastructure Engineer** with a passion for building scalable, secure, and observable systems.  
 From bare metal to the cloud, I enjoy creating infrastructure that’s as **automated and resilient** as the workloads it supports.
