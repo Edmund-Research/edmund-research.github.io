@@ -25,4 +25,10 @@ feature_row:
     url: "/projects/"
 ---
 
+<div class="home-profile">
+  <img src="/assets/images/bio-photo.jpg" alt="Edmund Chege" class="profile-photo">
+  <h2>Edmund Chege</h2>
+  <p>Infrastructure Engineer | Automation • Orchestration • Security</p>
+</div>
+
 {% include feature_row %}
