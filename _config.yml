@@ -1,109 +1,65 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+title: "Edmund Chege"
+subtitle: "Infrastructure Engineer | Orchestration & Security Enthusiast"
+name: "Edmund Chege"
+description: "From bare metal infrastructure to consumer land — building secure, reliable, and scalable systems."
+logo: "/assets/images/profile.png"
+url: "https://edmundchege.github.io"
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: EC
-email:
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: sunrise
-search: true
+# Theme
+remote_theme: "mmistakes/minimal-mistakes@4.26.1"
 
-# Build settings
-markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
-# Outputting
-permalink: /about
-
-include:
-  - _pages
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-# Plugins (previously gems:)
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-include-cache
-
+# Author
 author:
-  name   : "Edmund Chege"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "From bare metal infrastructure to consumer land and everything in between."
+  name: "Edmund Chege"
+  avatar: "/assets/images/profile.png"
+  bio: "Infrastructure Engineer | Kubernetes | Terraform | Security"
+  location: "Nairobi, Kenya"
   links:
     - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      icon: "fas fa-globe"
+      url: "https://edmundchege.github.io"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/Edmund-Research/"
+      icon: "fab fa-github"
+      url: "https://github.com/edmundchege"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://linkedin.com/in/edmundchege"
+    - label: "Twitter"
+      icon: "fab fa-twitter"
+      url: "https://twitter.com/edmundchege"
 
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+  talks:
+    output: true
+    permalink: /talks/:path/
 
 defaults:
-  # _posts
   - scope:
       path: ""
-      type: posts
+      type: "projects"
     values:
       layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-  # _pages
+      author_profile: false
+      share: false
   - scope:
-      path: "_pages"
-      type: pages
+      path: ""
+      type: "talks"
     values:
       layout: single
-      author_profile: true
+      author_profile: false
+      share: false
 
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-include-cache
+
+# Theme settings
+paginate: 5
+paginate_path: "/page:num/"
+include: ["_pages"]
