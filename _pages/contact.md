@@ -13,8 +13,8 @@ Whether you want to discuss infrastructure, DevOps automation, or cloud security
 
 ### 📬 Reach Me Directly
 
-- **Email:** [edmund.chege[at]protonmail.com](mailto:edmundshege@gmail.com)  
-- **LinkedIn:** [linkedin.com/in/edmundchege](https://www.linkedin.com/in/edmund-chege/)  
+- **Email:** [edmundshege@gmail.com](mailto:edmundshege@gmail.com)  
+- **LinkedIn:** [linkedin.com/in/edmund-chege](https://www.linkedin.com/in/edmund-chege/)  
 - **GitHub:** [github.com/Edmund-Research](https://github.com/Edmund-Research)
 
 ---
