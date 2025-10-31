@@ -28,7 +28,7 @@ search: true
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
-permalink: /about
+permalink: /:categories/:title/
 
 include:
   - _pages
@@ -80,6 +80,12 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
 
 defaults:
   # _posts

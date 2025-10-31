@@ -2,7 +2,7 @@
 layout: single
 title: "About"
 permalink: /about/
-author_profile: true
+author_profile: false
 ---
 
 Hi, I’m **Edmund Chege**, an Infrastructure Engineer passionate about **automation**, **security**, and **reliability**.
@@ -20,3 +20,6 @@ I bridge the gap between operations and development by designing and maintaining
 > “Infrastructure should empower developers, not constrain them.”
 
 Outside of work, I enjoy contributing to open-source tools and mentoring new engineers in cloud automation and DevSecOps.
+
+Download my latest resume:  
+👉 [View Resume (PDF)](/assets/resume/edmund-chege-resume.pdf)
