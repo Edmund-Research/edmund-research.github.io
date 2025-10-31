@@ -5,21 +5,42 @@ permalink: /about/
 author_profile: false
 ---
 
-Hi, I’m **Edmund Chege**, an Infrastructure Engineer passionate about **automation**, **security**, and **reliability**.
+## 👋 Hi, I’m Edmund Chege
 
-I bridge the gap between operations and development by designing and maintaining systems that scale — from bare-metal servers to Kubernetes clusters. My focus is on **secure orchestration**, **CI/CD optimization**, and **infrastructure resilience**.
+I’m an **Infrastructure Engineer** with a passion for building scalable, secure, and observable systems.  
+From bare metal to the cloud, I enjoy creating infrastructure that’s as **automated and resilient** as the workloads it supports.
 
-### 🧠 Skills
-- Kubernetes, Docker, Helm  
-- Terraform, Ansible, GitHub Actions  
-- AWS, Azure, GCP  
-- Security hardening & compliance  
-- Monitoring & Observability (Prometheus, Grafana)
+---
 
-### 💬 Philosophy
-> “Infrastructure should empower developers, not constrain them.”
+## 🧱 My Focus
 
-Outside of work, I enjoy contributing to open-source tools and mentoring new engineers in cloud automation and DevSecOps.
+- **Infrastructure as Code (IaC):** Terraform, Ansible, and Helm for predictable, versioned environments.  
+- **Orchestration:** Kubernetes and CI/CD automation for seamless deployments.  
+- **Security:** Integrating compliance and monitoring into infrastructure workflows.  
+
+---
+
+## 🔐 Expanding into Ethical Hacking
+
+I’m currently pursuing a **course in Ethical Hacking**, which deepens my understanding of **system vulnerabilities, network defense, and secure architecture design**.
+
+This complements my infrastructure work by helping me:
+- Anticipate and mitigate potential attack vectors early in the design phase.  
+- Align infrastructure automation with **defense-in-depth** principles.  
+- Build a stronger bridge between **operations, development, and security**.  
+
+My goal is to create infrastructure that’s not only **efficient and automated**, but also **secure by design**.
+
+---
+
+## 🌍 Beyond the Console
+
+When I’m not debugging clusters or automating deployments, you’ll find me:
+- Reading about distributed systems and cybersecurity trends.  
+- Experimenting with open-source tools.  
+- Sharing lessons learned through technical writing and collaboration.
+
+---
 
 Download my latest resume:  
 👉 [View Resume (PDF)](/assets/resume/edmund-chege-resume.pdf)

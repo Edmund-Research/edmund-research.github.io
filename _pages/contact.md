@@ -7,14 +7,14 @@ author_profile: false
 
 ## 👋 Let's Connect
 
-Whether you want to discuss infrastructure, DevOps automation, or cloud security — I’m always open to new opportunities and collaboration.
+Whether you want to discuss infrastructure, DevOps automation, or cloud security. I’m always open to new opportunities and collaboration.
 
 ---
 
 ### 📬 Reach Me Directly
 
-- **Email:** [edmund.chege[at]protonmail.com](mailto:edmund.chege@protonmail.com)  
-- **LinkedIn:** [linkedin.com/in/edmundchege](https://linkedin.com/in/edmundchege)  
+- **Email:** [edmund.chege[at]protonmail.com](mailto:edmundshege@gmail.com)  
+- **LinkedIn:** [linkedin.com/in/edmundchege](https://www.linkedin.com/in/edmund-chege/)  
 - **GitHub:** [github.com/Edmund-Research](https://github.com/Edmund-Research)
 
 ---
