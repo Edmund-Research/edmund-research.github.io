@@ -32,7 +32,7 @@ Focused on **automation**, **performance**, and **security**, I build systems th
 
 ## 🧭 Professional Experience
 
-<div class="timeline">
+<div>
 
 ### <span class="timeline__title">Platform Engineer (Consultant)</span>
 **May 2024 – Present**
