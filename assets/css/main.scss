@@ -1,0 +1,24 @@
+
+@import "minimal-mistakes";  // Keep this line — it imports the main theme
+
+.masthead__menu-item > a {
+  position: relative;
+  padding-bottom: 4px;
+}
+
+.masthead__menu-item > a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #e74c3c;
+  transition: width 0.3s ease;
+}
+
+.masthead__menu-item > a:hover::after,
+.masthead__menu-item.current > a::after {
+  width: 100%;
+}
+
